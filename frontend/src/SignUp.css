@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #686666;
+    margin: 0; /* Removed margin to ensure centering */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically as well */
+  }
+  
+  /* SignUp Form Container */
+  .signup {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make it responsive */
+    max-width: 600px; /* Increased max-width for a wider form */
+  }
+  
+  /* Form Title */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form Group */
+  form div {
+    margin-bottom: 25px;
+  }
+  
+  /* Form Labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Form Inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  /* Submit Button */
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  /* Login Link */
+  .login-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-link p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .login-link a:hover {
+    color: #0056b3;
+  }
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .signup {
+      padding: 15px;
+      max-width: 100%; /* Ensure full width on small screens */
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      font-size: 16px;
+    }
+  
+    button[type="submit"] {
+      font-size: 18px;
+    }
+  }
+  
